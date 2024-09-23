@@ -2,6 +2,7 @@ import { useFonts } from 'expo-font';
 
 import { SafeAreaView, StyleSheet, Text, View, Platform, StatusBar} from 'react-native';
 
+import Main from './src/Main/index';
 export default function App() {
 
 
@@ -18,14 +19,12 @@ export default function App() {
     }
 
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style= {{fontFamily:'GeneralSans-400'}}>Open up App.js to start working on your app!</Text>
-      <Text style= {{fontFamily:'GeneralSans-600'}}>Open up App.js to start working on your app!</Text>
-      <Text style= {{fontFamily:'GeneralSans-700'}}>Open up App.js to start working on your app!</Text>
-      <Text style= {{fontFamily:'GeneralSans-700'}}>test</Text>
 
-      <StatusBar style="auto" />
-    </SafeAreaView>
+    <Main>
+      
+    </Main>
+
+  
   );
 }
 
@@ -39,3 +38,16 @@ const styles = StyleSheet.create({
   },
 
 });
+
+
+{/* 
+  //
+  
+  //   <SafeAreaView style={styles.container}>
+  //     <Text style= {{fontFamily:'GeneralSans-400'}}>Open up App.js to start working on your app!</Text>
+  //     <Text style= {{fontFamily:'GeneralSans-600'}}>Open up App.js to start working on your app!</Text>
+  //     <Text style= {{fontFamily:'GeneralSans-700'}}>Open up App.js to start working on your app!</Text>
+  //     <Text style= {{fontFamily:'GeneralSans-700'}}>test</Text>
+
+  //     <StatusBar style="auto" />
+  //   </SafeAreaView> */}
