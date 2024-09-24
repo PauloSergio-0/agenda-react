@@ -17,10 +17,10 @@ export default function App() {
     if (!isFontsLoaded){
       return null;
     }
-
-  return (
-
-    <Main>
+    
+    return (
+      
+      <Main>
       
     </Main>
 
@@ -36,12 +36,12 @@ const styles = StyleSheet.create({
     // alignItems: 'center',
     // justifyContent: 'center',
   },
-
+  
 });
 
 
 {/* 
-  //
+  //old code
   
   //   <SafeAreaView style={styles.container}>
   //     <Text style= {{fontFamily:'GeneralSans-400'}}>Open up App.js to start working on your app!</Text>
