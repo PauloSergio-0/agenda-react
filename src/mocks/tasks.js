@@ -14,7 +14,6 @@ export const tasks = [
     done: false,
     data: '2023-03-27 08:15',
   },
-
   {
     id: '3',
     title: 'Reunião Trabalho',
